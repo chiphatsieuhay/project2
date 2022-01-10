@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./CSS/FAQs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="Logo">
+            <img src="../img/faq.svg">
+            <p> Frequently Asked Questions</p>
+        </div>
+        <div class="search_bar">
+            <input type="text" name="" placeholder="Type keywords to find answer" id="search_bar" class="form-control">
+        </div>
+    </div>
+    <div class="body">
+        <p> List of the questions </p>
+        <div class="category">
+            <div class="category1">
+                <div class="frame">
+                    <div class="title">
+                        <p1> Category 1 </p1>
+                    </div>
+                    <ul>
+                        <li class="Q1"><a href="#">Question 1</a></li>
+                        <li class="Q2"><a href="#">Question 2</a></li>
+                        <li class="Q3"><a href="#">Question 3</a></li>
+                        <li class="Q4"><a href="#">Question 4</a></li>
+                        <li class="Qn"><a href="#">See all questions...</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="category2">
+                <div class="frame">
+                    <div class="title">
+                        <p1> Category 2 </p1>
+                    </div>
+                    <ul>
+                        <li class="Q1"><a href="#">Question 1</a></li>
+                        <li class="Q2"><a href="#">Question 2</a></li>
+                        <li class="Q3"><a href="#">Question 3</a></li>
+                        <li class="Q4"><a href="#">Question 4</a></li>
+                        <li class="Qn"><a href="#">See all questions...</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="category3">
+                <div class="frame">
+                    <div class="title">
+                        <p1> Category 3 </p1>
+                    </div>
+                    <ul>
+                        <li class="Q1"><a href="#">Question 1</a></li>
+                        <li class="Q2"><a href="#">Question 2</a></li>
+                        <li class="Q3"><a href="#">Question 3</a></li>
+                        <li class="Q4"><a href="#">Question 4</a></li>
+                        <li class="Qn"><a href="#">See all questions...</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us">
+        <p> Still can not find your answers? Please let us know</p>
+        <div class="button">
+            <div class="clicky">
+                <a href="#" class="button1" id="button1"> Contact us </a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="contact-form">
+            <img src="../img/cancel.svg" alt="close" class="close">
+            <div class="name">
+                <input type="text" name="" placeholder="Name" id="name" class="form-control">
+            </div>
+            <div class="email">
+                <input type="email" name="" placeholder="E-Mail Adress" id="email" class="form-control">
+            </div>
+            <div class="message">
+                <textarea name="" placeholder="Your questions" id="message" class="form-control"></textarea>
+            </div>
+            <div class="submit">
+                <button type="button">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("button1").addEventListener("click",function (){
+            document.querySelector(".popup").style.display = "flex";
+        })
+
+        document.querySelector(".close").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none";
+
+        })
+    </script>
+
+</body>

@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header .Logo {
+    width: 30rem;
+    height: 12rem;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: center;
+}
+.header .Logo img {
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .Logo p{
+    font-size: 2rem;
+}
+
+.header .search_bar {
+    height: auto;
+    width: 50%;
+    margin:auto;
+    margin-top: 1.5rem;
+}
+.header .search_bar input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #18A0FB;
+    border-radius: 25px;
+    font-size: 1rem;
+    background-color: white;
+    background-image: url('../img/search.png');
+    background-position: 15px 11px;
+    background-repeat: no-repeat;
+    padding: 12px 25px 12px 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+.body p {
+    margin: 2rem 0 0 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.body .category {
+    display: flex;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.body .category .category1 {
+    text-align: center;
+    margin-left: 10%;
+    flex: 1;
+}
+.category .frame {
+    width: 20rem;
+    height: auto;
+    border: 1px solid black;
+
+}
+.body .category .category2 {
+    text-align: center;
+    margin-left: 10%;
+    flex: 1;
+}
+.body .category .category3 {
+    flex: 1;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.body li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 1.5rem;
+}
+.body a {
+    text-decoration: none;
+    color: black;
+}
+.body a:hover {
+    color: #18A0FB;
+}
+.body .category .title {
+    margin-top: 1rem;
+}
+.body p1 {
+    color: #18A0FB;
+    font-weight: bold;
+}
+.body .category .Qn a {
+    color: #969696;  
+}
+.body .category .Qn a:hover {
+    color: #18A0FB;
+}
+
+.contact-us {
+    margin-top: 5rem;
+    display: flex;
+    width: 30%;
+    margin-left: 60%;
+}
+.contact-us p {
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+}
+.contact-us .button {
+    flex: 1;
+ 
+}
+.contact-us .clicky {
+    background-color: #18A0FB;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+
+.contact-us a {
+    text-decoration: none;
+    border:none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.popup .close {
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: 11rem;
+    right: 37rem;
+    cursor: pointer;
+    
+}
+
+.contact-form {
+    margin: auto;
+    width: 40%;
+    height: 45rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.contact-form input {
+    margin-top: 4rem;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: white;
+    padding: 12px 25px 12px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-form .email input {
+    margin-top: 1rem;
+}
+
+.contact-form textarea {
+    margin-top: 1rem;
+    width: 90%;
+    height: 20rem;
+    border: 1px solid rgb(0, 0, 0, 50%);
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: white;
+    padding: 12px 25px 12px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-form .name {
+    margin-top: 1.5rem;
+}
+.contact-form .email {
+    margin-top: 1.5rem;
+}
+.contact-form .message {
+    margin-top: 1.5rem;
+}
+
+.contact-form ::placeholder {
+    font-style: italic;
+}
+.contact-form .submit {
+    margin-top: 3rem;
+}
+.contact-form button {
+    width: 15%;
+    height: 3rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #18A0FB;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    

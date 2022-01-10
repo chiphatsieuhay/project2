@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.pic {
+    width: 100%;
+    height: 40rem;
+}
+.pic img {
+    width: 100%;
+    height: 40rem;
+}
+
+.container {
+    display: flex;
+    height: 50rem;
+
+}
+.container .FAQ {
+    flex: 1;
+    text-align: center;
+    margin: 0 5rem;
+
+}
+.container .Invoice {
+    flex: 1;
+    text-align: center;
+    margin: 0 5rem;
+}
+.container .Profile {
+    flex: 1;
+    text-align: center;
+    margin: 0 5rem;
+
+}
+.container img {
+    width: 4rem;
+    height: 4rem;
+    margin: 5rem 0 1rem 0;
+}
+
+.container p1 {
+    font-size: 1.5rem;
+    font-style: initial;
+}
+
+.container p {
+    margin: 3rem 0 0 0;
+}
+
